@@ -1,0 +1,126 @@
+
+/* Mengatur tampilan seluruh halaman */
+body {
+    background-color: #f0f8e8;
+    font-family: Arial, sans-serif;
+    color: #222;
+    margin: 20px;
+}
+
+/* Mengatur bagian header */
+#header {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mengatur judul */
+h1 {
+    font-size: 32px;
+}
+
+/* Mengatur kutipan */
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Nama Soekarno */
+#soekarno {
+    font-weight: bold;
+}
+
+/* Mengatur menu */
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* Mengatur gambar utama */
+.gambar {
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+.gambar img {
+    width: 23%;
+    margin: 10px;
+}
+
+/* Mengatur isi artikel */
+.isi {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Mengatur teks Perkutut Jawa */
+.jawa {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* Mengatur bagian profil dan beternak */
+#profil,
+#beternak {
+    margin: 25px 10px;
+    padding: 15px;
+}
+
+/* Mengatur gambar koleksi */
+.koleksi {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.koleksi img {
+    width: 23%;
+    margin: 5px;
+}
+
+/* Mengatur bagian promosi */
+.promo {
+    background-color: #d9edc8;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.promo h2 {
+    color: darkgreen;
+}
+
+.promo h3 {
+    line-height: 1.7;
+}
+
+/* Mengatur nomor WhatsApp */
+#Wa {
+    font-weight: bold;
+    color: darkgreen;
+}
+/* Mengatur menu navigasi */
+ul {
+    line-height: 2;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* Mengatur gambar koleksi agar sejajar */
+.koleksi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.koleksi img {
+    width: 22%;
+    height: auto;
+    object-fit: cover;
+}
